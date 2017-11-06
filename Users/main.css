@@ -122,7 +122,8 @@ color: #FFF;
 
 
 .banner 
-{
+{       
+	min-width: 500px;
 	width:60%;
 	margin:auto;
 	padding:3em 0 3em 0;
@@ -145,7 +146,8 @@ color: #FFF;
 }
 
 .form 
-{
+{       
+	min-width: 500px;
 	margin:auto;
 	padding:19.2em 0 19.3em 0;
 	background-color:#7E8AA2;
