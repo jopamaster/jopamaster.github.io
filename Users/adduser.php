@@ -106,27 +106,12 @@
 			<head>		
 			<title>Table</title>			
 			<meta charset="UTF-8">			
-			<link rel="stylesheet" type="text/css" href="adduser.css">
+			<link rel="stylesheet" type="text/css" href="addeduser.css">
 			<link rel="icon" type="image/png" href="icon.png"/>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>			
 			<script src="adduser.js"></script>
 			<script src="allusers.js"></script>
-				<style>
-				.button
-				 {
-				  margin-left:auto; 
-				  margin-right:auto
-				  color: #900;
-				  background:white;
-				  font-weight: bold;
-				  border: 1px solid #900;
-				   width:15%;
-				   height:31px;
-					 position:relative;
-					top:88%;
-				
-				  }
-				</style>		  
+					  
 		  </head> 
 		  <body>			 
 			 <div class="wrapper">				
