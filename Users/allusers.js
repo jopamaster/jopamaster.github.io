@@ -54,7 +54,7 @@
                 },
                 error: function()
                 {
-                   g_form.addInfoMessage("<a href='"+location.href+"'>"+location.href+"</a>");   
+                   g_form.addInfoMessage("error");   
                 },
                 complete: function()
                 {	 
