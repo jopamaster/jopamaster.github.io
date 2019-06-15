@@ -54,7 +54,7 @@
                 },
                 error: function()
                 {
-                    alert("error"); 
+                    alert("Database is currently unavailable"); 
                 },
                 complete: function()
                 {	 
