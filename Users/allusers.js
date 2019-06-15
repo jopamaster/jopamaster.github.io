@@ -54,7 +54,9 @@
                 },
                 error: function()
                 {
-                   g_form.addInfoMessage("error");   
+                     $( function() {
+                     $( "#dialog" ).dialog();
+                         } );  
                 },
                 complete: function()
                 {	 
