@@ -54,7 +54,7 @@
                 },
                 error: function()
                 {
-                    alert("Database is currently unavailable"); 
+                    alert("Important: Due to database being currently unavailable, core functionality of the example is not working. Instead please navigate to my repository here, to check the PHP, JS and other files."); 
                 },
                 complete: function()
                 {	 
