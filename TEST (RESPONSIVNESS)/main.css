@@ -15,8 +15,8 @@ html, body
 	width: 40vw;
 	margin:auto;
 	outline:1px solid white;
-	min-width:400px;
-	min-height:400px;
+	min-width:300px;
+	min-height:300px;
 }
 
 .banner 
