@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+html, body
+{ 
+	width:100vw;
+	height:100vh;	
+	margin:auto;
+	background-color: black;	
+}
+
+.wrapper
+{
+	height:100vh;
+	width: 40vw;
+	margin:auto;
+	outline:1px solid white;
+}
+
+.banner 
+{  
+    height:15%;
+	width:60%;	
+	margin:auto;
+	background-color: #FFFFFF;
+    
+}
+
+
+.form 
+{  
+    height:77%;
+	margin:auto;
+	background-color:#B0C4DE;
+	
+}
+
+.footer 
+{   
+    height:8%;
+    margin:auto;
+	background: red;	
+}
+
+	
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) 
+{	
+	
+}  
+ 
+
+ 
+@media (max-width: 767px) 
+{
+	
+	
+  
+}
+ 
+ 
+ 
+/* MEDIA QUERIES */
