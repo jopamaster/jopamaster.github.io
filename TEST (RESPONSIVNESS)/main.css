@@ -28,7 +28,6 @@ html, body
     
 }
 
-
 .form 
 {  
     height:77%;
@@ -44,9 +43,6 @@ html, body
 	background: red;	
 }
 
-	
-
-
 
 /* MEDIA QUERIES */
 
@@ -59,17 +55,6 @@ html, body
 	
 }
 
-
-
-
- 
-@media (max-width: 767px) 
-{
-		
-	
-  
-}
- 
  
  
  
