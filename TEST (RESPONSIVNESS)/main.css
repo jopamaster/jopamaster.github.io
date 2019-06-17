@@ -50,7 +50,11 @@ html, body
 
 @media (max-width: 480px) 
 {	
-	
+		.wrapper
+		{
+			width: 70vw;
+		
+		}
 }  
  
 
