@@ -52,7 +52,7 @@ html, body
 {	
 		.wrapper
 		{
-			width: 70vw !important;
+			width: 70vw;
 		}
 }  
  
