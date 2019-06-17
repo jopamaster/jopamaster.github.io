@@ -65,7 +65,14 @@ html, body
 	
 }
  
- 
+@media (max-width: 992px) 
+{
+		.wrapper
+		{   
+			width: 50vw;
+		}	
+	
+} 
  
  
  
