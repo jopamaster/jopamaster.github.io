@@ -32,14 +32,14 @@ html, body
 }
 
 .banner-text 
-{	
-    position:relative;
-    margin:1em;
+{	   
+    padding:1em 0 1em 0;
     text-shadow: 20px 20px 50px #B9B9B9;
-	font-size: 2.3em;
+	font-size: 5vh;
 	font-weight: bold;
 	text-align: center;	
-	color:#DC3522;	
+	color:#DC3522;
+	position: relative;
 }
 
 .form 
@@ -79,12 +79,7 @@ html, body
 		}
 		.banner-text 
 		{	   
-			margin:1.5em;
-			text-shadow: 20px 20px 50px #B9B9B9;
-			font-size: 1.5em;
-			font-weight: bold;
-			text-align: center;	
-			color:#DC3522;	
+			
 		}
 		
 			
