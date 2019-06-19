@@ -116,7 +116,7 @@ html, body
 	top: 0;
 	width: 100vw; 
 	height: 100vh; 
-	
+	overflow: auto; 
 	background-color: rgb(0,0,0); 
 	background-color: rgba(0,0,0,0.7);
 }
@@ -198,7 +198,8 @@ html, body
 {
 	    .dialog-content 
         {	
-			width:80%;
+			width:80vw;
+			margin-top:-25vh;
 			
 		}
 		.wrapper
@@ -225,6 +226,11 @@ html, body
 
 @media (min-width: 480px) and (max-width: 768px) 
 {
+	
+		.dialog.content
+		{
+			width:50vw;
+		}
 		.wrapper
 		{   
 			width: 50vw;
