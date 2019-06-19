@@ -122,8 +122,10 @@ html, body
 		{
 			font-size:3vw;	
 		}
+		
 		.btn-add, .btn-view
 		{
+			width:30%;
 			font-size:3vw;
 		}
 				
