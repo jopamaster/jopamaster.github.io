@@ -48,14 +48,17 @@ html, body
     height:77%;
 	margin:auto;
 	background-color:#ADD8E6;
-	border-left: 4px inset	black;
-	border-top: 4px solid	black;
+	border-left: 4px inset black;
+	border-top: 4px solid black;
 	border-right: 4px solid	black;
 	border-bottom: 4px solid black;
 	border-radius: 20px;	
 	font-weight:italic;
 	opacity:0.8;
 	box-sizing: border-box;	
+	display: flex;
+    justify-content: center;
+	align-items: center;
 }
 
 .footer 
@@ -84,14 +87,27 @@ html, body
 	margin:auto;
 	color: #900;
 	background:white;
+	font-family: 'Aldrich';
 	font-weight: bold;
 	border: 1px solid #900;
-	width:15%;
-	height:9%;
-	font-size:1vw;	 
+	width:20%;
+	height:14%;
+	font-size:1.3vw;	 
 	
 }
 
+.btn-view
+{   
+	margin:auto;
+	color: #900;
+	background:white;
+	font-family: 'Aldrich';
+	font-weight: bold;
+	border: 1px solid #900;
+	width:20%;
+	height:14%;
+	font-size:1.3vw;	 	
+}
 
 
 
