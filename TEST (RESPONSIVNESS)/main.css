@@ -197,8 +197,9 @@ html, body
 @media (max-width: 480px)
 {
 	    .dialog-content 
-        {		
-		margin-top:	20px;		
+        {	
+			width:80%;
+			margin-top:	20px;		
 		}
 		.wrapper
 		{   
