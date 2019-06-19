@@ -92,9 +92,12 @@ html, body
 	border-radius:10px;
 	width:20%;
 	height:12%;
-	font-size:1.3vw;	 
-	
+	font-size:1.3vw;	  
+    overflow: hidden;
+    text-overflow: ellipsis;
+	min-height: 50px;
 }
+
 
 .btn-add:hover, .btn-view:hover, .close-btn:hover
 {
@@ -145,7 +148,13 @@ html, body
 	    .footer-text
 		{
 			font-size:2vw;	
-		}	   
+		}	 
+		.btn-add, .btn-view
+		{
+			width:25%;
+			font-size:2vw;
+		}
+		
 }
  
 @media (min-width: 768px) and (max-width: 992px) 
@@ -163,6 +172,10 @@ html, body
 		{
 			font-size:1.5vw;	
 		}	
+		.btn-add, .btn-view
+		{
+			font-size:2vw;
+		}
 		
 } 
  
