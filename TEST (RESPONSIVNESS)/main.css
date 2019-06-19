@@ -47,7 +47,7 @@ html, body
 {  
     height:77%;
 	margin:auto;
-	background-color:rgba(173, 216, 230,0.8);
+	background-color:rgba(211, 211, 211,0.8);
 	border-left: 4px inset black;
 	border-top: 4px solid black;
 	border-right: 4px solid	black;
@@ -109,10 +109,13 @@ html, body
     
 }
 
-
-
-
-
+.btn-add:hover, .btn-view:hover, .close-btn:hover
+{
+ color: #FFF;
+ background: #900;
+ cursor: pointer;
+ box-shadow: 3px  3px  3px black;
+}
 
 
 
