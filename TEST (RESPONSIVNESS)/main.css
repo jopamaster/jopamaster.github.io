@@ -81,7 +81,7 @@ html, body
 	font-size:1.1vw;	
 }
 
-.btn-add
+.btn-add, .btn-view
 {   
 	margin:auto;
 	color: #900;
@@ -89,24 +89,11 @@ html, body
 	font-family: 'Aldrich';
 	font-weight: bold;
 	border: 1px solid #900;
+	border-radius:10px;
 	width:20%;
 	height:12%;
 	font-size:1.3vw;	 
 	
-}
-
-.btn-view
-{   
-	margin:auto;
-	color: #900;
-	background:white;
-	font-family: 'Aldrich';
-	font-weight: bold;
-	border: 1px solid #900;
-	width:20%;
-	height:12%;
-	font-size:1.3vw;
-    
 }
 
 .btn-add:hover, .btn-view:hover, .close-btn:hover
@@ -134,6 +121,10 @@ html, body
 		.footer-text
 		{
 			font-size:3vw;	
+		}
+		.btn-add, .btn-view
+		{
+			font-size:3vw;
 		}
 				
 }
