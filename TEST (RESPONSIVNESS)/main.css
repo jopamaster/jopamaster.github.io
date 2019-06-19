@@ -101,13 +101,97 @@ html, body
 
 .btn-add:hover, .btn-view:hover, .close-btn:hover
 {
- color: #FFF;
- background: #900;
- cursor: pointer;
- box-shadow: 3px  3px  3px black;
+	color: #FFF;
+	background: #900;
+	cursor: pointer;
+	box-shadow: 3px  3px  3px black;
 }
 
+.dialog 
+{
+	position: fixed;
+	z-index: 1; 
+	padding-top: 210px;
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.7);
+}
+	
+.dialog-content 
+{
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	border-radius:4px;
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	font-family:Arial;
+}
 
+@-webkit-keyframes animatetop 
+{
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+}
+
+@keyframes animatetop 
+{
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+.dialog-header 
+{
+	background-image: url(background.jpg);
+	padding: 2px 16px;
+	color: white;
+}
+
+.dialog-body 
+{
+	padding: 2px 16px;
+}
+
+.dialog-body_two
+{
+	padding: 2px 16px; background-color: #C0C0C0;
+}
+
+.dialog-body_three
+{
+	padding: 2px 16px;
+}
+
+.dialog-footer 
+{
+	background-image: url(background.jpg);
+	padding: 10px 16px;
+	color: white;
+	text-align:center;
+}
+.close-btn
+{
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	color: #900;
+	background:white;
+	font-weight: bold;
+	border: 1px solid #900;
+	border-radius:10px;
+}  
 
 /* MEDIA QUERIES */
 
