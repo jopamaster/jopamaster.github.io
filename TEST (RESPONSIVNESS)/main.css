@@ -47,7 +47,7 @@ html, body
 {  
     height:77%;
 	margin:auto;
-	background-color:#B0C4DE;
+	background-color:#D3D3D3;
 	border-left: 4px inset	black;
 	border-top: 4px solid	black;
 	border-right: 4px solid	black;
@@ -78,6 +78,26 @@ html, body
 	color:white;
 	font-size:1.1vw;	
 }
+
+.btn-add
+{   
+	margin:auto;
+	color: #900;
+	background:white;
+	font-weight: bold;
+	border: 1px solid #900;
+	width:15%;
+	height:9%;
+	font-size:1vw;	 
+	
+}
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIES */
