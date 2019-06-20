@@ -8,4 +8,8 @@
 	$('#myDialog').dialog('show');});
 	close.onclick = function() {
 	dialog.style.display = "none";}
+	
+	
+
+
 });
