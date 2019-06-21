@@ -10,6 +10,4 @@
 	dialog.style.display = "none";}
 	
 	
-
-
 });
