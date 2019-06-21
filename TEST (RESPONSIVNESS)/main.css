@@ -225,7 +225,11 @@ html, body
 
 @media (min-width: 480px) and (max-width: 768px) 
 {
-	
+		.dialog-content
+		{
+			width: 70vw;
+			margin-top:-20vh;
+		}
 		.wrapper
 		{   
 			width: 50vw;
