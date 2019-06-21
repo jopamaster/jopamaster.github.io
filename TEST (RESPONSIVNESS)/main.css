@@ -98,8 +98,20 @@ html, body
 	min-height: 50px;
 }
 
+.btn-close-modal
+{
+	min-width:20%;
+	height:20%;
+	margin:auto;
+	color: #900;
+	background:white;
+	font-family: 'Aldrich';
+	font-weight: bold;
+	border: 1px solid #900;
+	border-radius:10px;
+}
 
-.btn-add:hover, .btn-view:hover, .close-btn:hover
+.btn-add:hover, .btn-view:hover, .btn-close-modal:hover
 {
 	color: #FFF;
 	background: #900;
