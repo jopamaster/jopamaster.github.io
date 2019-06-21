@@ -135,7 +135,7 @@ html, body
 	animation-name: animatetop;
 	animation-duration: 0.4s;
 	font-family:Arial;
-	font-size:4vw;
+	font-size:1vw;
 }
 
 @-webkit-keyframes animatetop 
@@ -201,6 +201,7 @@ html, body
 		{
 			width: 90vw;
 			margin-top:-12vh;
+			font-size:4vw;
 		}
 		.wrapper
 		{   
