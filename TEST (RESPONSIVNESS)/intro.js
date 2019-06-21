@@ -1,13 +1,20 @@
 
- $(document).ready(function(){
-    $(this).scrollTop(0);
-
-    var dialog = document.getElementById("myDialog");
-	var close = document.getElementsByClassName("close-btn")[0];
-	$(window).on('load',function(){
-	$('#myDialog').dialog('show');});
-	close.onclick = function() {
-	dialog.style.display = "none";}
+$(document).ready(function(){
+    
+	$(this).scrollTop(0);
 	
+	//BS Modal//
+    var modal = document.getElementById("intro_Modal");
+	
+	$(window).on('load',function()
+	{
+	$('#intro_Modal').modal('show');
+	});
+	
+	$('#intro_Modal').modal({
+    backdrop: 'static',
+    keyboard: false
+	});	
+	//BS Modal//
 	
 });
