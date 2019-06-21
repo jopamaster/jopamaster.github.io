@@ -5,7 +5,7 @@ html, body
 	width:100vw;
 	height:100vh;	
 	margin:auto;
-	background-color: black;
+	background-color: #000;
     background-image: url("background.jpg");	
 }
 
@@ -111,7 +111,7 @@ html, body
 {
 	position: fixed;
 	z-index: 1; 
-	padding-top: 210px;
+	padding-top:25vh;
 	left: 0;
 	top: 0;
 	width: 100vw; 
@@ -126,9 +126,9 @@ html, body
 { 
 	position: relative;
 	background-color: #fefefe;
-	margin: auto;	
+	margin:auto;	
 	border: 1px solid #888;
-	max-width: 50vw;
+	width: 50vw;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 	-webkit-animation-name: animatetop;
 	-webkit-animation-duration: 0.4s;
@@ -139,13 +139,13 @@ html, body
 
 @-webkit-keyframes animatetop 
 {
-	from {top:-300px; opacity:0} 
+	from {top:-60%; opacity:0} 
 	to {top:0; opacity:1}
 }
 
 @keyframes animatetop 
 {
-	from {top:-300px; opacity:0}
+	from {top:-60%; opacity:0}
 	to {top:0; opacity:1}
 }
 
@@ -185,7 +185,7 @@ html, body
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	color: #900;
+	color: #900;	
 	background:white;
 	font-weight: bold;
 	border: 1px solid #900;
@@ -196,7 +196,11 @@ html, body
 
 @media (max-width: 480px)
 {
-	   
+		.dialog-content
+		{
+			width: 80vw;
+			margin-top:-15vh;
+		}
 		.wrapper
 		{   
 			width: 70vw;
