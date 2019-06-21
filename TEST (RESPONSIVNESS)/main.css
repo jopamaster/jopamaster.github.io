@@ -135,6 +135,7 @@ html, body
 	animation-name: animatetop;
 	animation-duration: 0.4s;
 	font-family:Arial;
+	font-size:4vw;
 }
 
 @-webkit-keyframes animatetop 
@@ -228,7 +229,7 @@ html, body
 		.dialog-content
 		{
 			width: 70vw;
-			margin-top:-20vh;
+			margin-top:-22vh;
 		}
 		.wrapper
 		{   
