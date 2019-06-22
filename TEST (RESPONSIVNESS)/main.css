@@ -100,8 +100,11 @@ html, body
 
 .btn-close-modal
 {
-	min-width:20%;
-	height:20%;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	min-width:15%;
+	height:50px;
 	margin:auto;
 	color: #900;
 	background:white;
@@ -119,6 +122,12 @@ html, body
 	box-shadow: 3px  3px  3px black;
 }
 
+.modal
+{
+	display: flex;
+    justify-content: center;
+	align-items: center;	
+}
 
 
 
