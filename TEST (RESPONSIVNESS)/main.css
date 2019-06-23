@@ -5,8 +5,9 @@ html, body
 	width:100vw;
 	height:100vh;	
 	margin:auto;
-	background-color: #000;
+	background-color: black;
     background-image: url("background.jpg");	
+	
 }
 
 .wrapper
@@ -112,7 +113,7 @@ html, body
 	font-weight: bold;
 	border: 1px solid #900;
 	border-radius:10px;
-	font-size:1vw;
+	font-size:1.1em
 }
 
 .btn-add:hover, .btn-view:hover, .btn-proceed-modal:hover
@@ -164,7 +165,7 @@ a:hover, a:focus { color:#900; font-weight:bold; }
 {
 	.btn-proceed-modal
 	{
-		min-width:40%;
+		min-width:38%;
 		font-size:1.1em;
 	}
 	.wrapper
@@ -188,7 +189,12 @@ a:hover, a:focus { color:#900; font-weight:bold; }
 }
 
 @media (min-width: 480px) and (max-width: 768px) 
-{		
+{	
+	.btn-proceed-modal
+	{
+		width:25%;
+		font-size:1.1em;
+	}	
 	.wrapper
 	{   
 		width: 50vw;
@@ -210,8 +216,13 @@ a:hover, a:focus { color:#900; font-weight:bold; }
  
 @media (min-width: 768px) and (max-width: 992px) 
 {	
+	.btn-proceed-modal
+	{
+		width:25%;
+		font-size:1.1em;
+	}
 	.wrapper
-	{   
+	{   	
 		width: 60vw;
 	}	
 
