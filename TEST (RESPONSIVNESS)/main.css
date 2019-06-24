@@ -155,7 +155,7 @@ a:hover, a:focus { color:#900; font-weight:bold; }
 .modal-dialog{ border:1px solid white; }
 .modal-header{ border-bottom:1px solid silver;  color:black; background-image: linear-gradient(grey, white); }
 .modal-body-one{ border-bottom:1px solid silver; padding-top:1px; }	
-.modal-body-two{ border-bottom:1px solid silver; padding-top:1px; background-image: diagonal-gradient(grey, white); }	
+.modal-body-two{ border-bottom:1px solid silver; padding-top:1px; }	
 .modal-body-three{ border-bottom:1px solid silver; padding-top:1px; }	
 .modal-footer{ background-image: linear-gradient(white, grey); }
 /* MODAL */
