@@ -25,4 +25,11 @@ $(document).ready(function()
 	}); 
 	//BS Modal//
 
+	$('#btn-add').click(function() 
+	{
+		 window.location = "HTML/add_user.html".
+	}
+
+
+
 });
