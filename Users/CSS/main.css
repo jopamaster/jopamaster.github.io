@@ -6,7 +6,7 @@ html, body
 	height:100vh;	
 	margin:auto;
 	background-color: black;
-    background-image: url("background.jpg");	
+    background-image: url("../Images/background.jpg");	
 	
 }
 
